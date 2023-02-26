@@ -1,0 +1,91 @@
+.image{
+    background-image: url('../../public/image.png');
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.space{
+    
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    width: 100rem;
+    margin-left: 18%;
+}
+
+.download{
+    background-color: #4451B1;
+    padding: 1rem;
+    margin-top: 3rem;
+    border: none;
+    color: white;
+    font-size: 1.125rem;
+    display: flex;
+    align-items: center;
+    width: 15rem;
+    
+}
+.dp{
+
+   
+    width: 750pxpx;
+    height: 750px;
+    margin-bottom: 13%;
+    
+
+}
+.wave{
+
+    animation: waves 3s ease-in-out 0s infinite forwards normal;
+    height: 1rem;
+    width: 1rem;
+
+}
+
+@keyframes waves {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(40deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+    
+}
+
+.white{
+
+    background-color: #ffffff;
+    margin-top: 6rem;
+    margin-left: 18%;
+    margin-right: 18%;
+    
+
+}
+.division{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem ;
+    height: 25vh;
+    border-style: solid;
+    border-width: 0.3rem;
+    border-color: #1165A9 ;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    margin-left: 0.25rem; 
+}
