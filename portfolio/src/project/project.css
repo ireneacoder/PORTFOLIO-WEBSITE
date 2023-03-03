@@ -1,0 +1,35 @@
+.whitediv{
+
+    width: 100%;
+    min-height: 20rem;
+    background-color: #ffffff;
+    padding: 1rem;
+    
+    
+}
+
+.cover{
+    
+    height: 20rem;
+    width: 100%;
+    background-image: url('../../public/helthyfi.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+
+}
+
+.button{
+
+    margin-top: 1.8rem;
+    padding: 1.625rem;
+    height: 1.425rem;
+    border: none;
+    background-color: #4451B1;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

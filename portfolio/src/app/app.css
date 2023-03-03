@@ -37,8 +37,8 @@
 .dp{
 
    
-    width: 750pxpx;
-    height: 750px;
+    width: 740px;
+    height: 740px;
     margin-bottom: 13%;
     
 
@@ -67,9 +67,10 @@
 .white{
 
     background-color: #ffffff;
-    margin-top: 6rem;
+    margin-top: 8rem;
     margin-left: 18%;
     margin-right: 18%;
+    margin-bottom: 8rem;
     
 
 }
@@ -88,4 +89,23 @@
     border-right: none;
     border-bottom: none;
     margin-left: 0.25rem; 
+}
+
+.horizontal{
+
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    margin-top: 2rem;
+
+}
+
+.bg{
+    
+    margin-top: 3rem;
+    /* height: 1395px; */
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.06);
+    padding: 6rem;
+    
 }
