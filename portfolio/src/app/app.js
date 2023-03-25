@@ -1,4 +1,6 @@
 
+import Nav from '../nav bar/nav';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Container from '../skills-container/skill';
 import Heading from '../heading/heading';
 import './app.css'
@@ -7,11 +9,17 @@ import Education from './backgroundcard';
 import { HiArrowLongRight } from "react-icons/hi2";
 import Achievement from '../achievement/achievement';
 import Project from '../project/projects';
+import Healthyfi from '../healthyfi app/healthyfi';
+import { SiGmail, SiNotion , SiLinkedin , SiInstagram , SiGithub } from "react-icons/si";
+import Carousel from '../carousel/carousel';
+
+
 
 export default function App()
 {
     return(
         <>
+        <Nav/>
         <div className='image' id='landing'>
             <div className='space'>
                 <div className='texts' >
@@ -95,21 +103,44 @@ export default function App()
 
         </div>
 
-        <div className='white'>
+        <div id="project" className='white'>
 
                 <Heading heading='Projects'/>
                 <div>
-                    <Project color='#F5E8FF' />
-                    <Project color='#E1F4FF'/>
+                    <Project color='#F5E8FF' img='./healthyfi.png' link='/healthyfi'/>
+                    <Project color='#E1F4FF'img='./startex.png' link='/startex'/>
                 </div>
                 
 
         </div>
 
-        <div className='white'>
-            <Heading heading='Gallery'/>
+        <div className='white' > <Heading heading='Gallery'/> 
+            <div> <Carousel/> </div>
+        </div>
+        
+        
+        <div>
+            <div id='contact' className='image' style={{paddingTop:'0.625rem'}} >
 
+               <div style={{marginTop:'8rem', marginBottom:'8rem', marginLeft:'18rem', marginRight:'18rem'}}> <Heading heading='Contact'/> </div>
 
+               <div className='outerdiv'>
+                    <div className='innerdiv'>
+                        <div className='icons'><SiGmail size={45}/></div>
+                        <div style={{ width:'2px', height:'3rem',backgroundColor:'#4451B1'}}></div>
+                        <div className='icons'> <SiNotion size={45}/> </div>
+                        <div style={{ width:'2px', height:'3rem',backgroundColor:'#4451B1'}}></div>
+                        <div className='icons'> <SiLinkedin size={45}/> </div>
+                        <div style={{ width:'2px', height:'3rem',backgroundColor:'#4451B1'}}></div>
+                        <div className='icons'> <SiInstagram size={45}/> </div>
+                        <div style={{ width:'2px', height:'3rem',backgroundColor:'#4451B1'}}></div>
+                        <div className='icons'> <SiGithub size={45}/> </div>
+                    </div>
+               </div>
+               <div style={{textAlign:'center', marginTop:'12rem', fontSize:'1.625rem', fontWeight:'400'}}> Thankyou for visiting ! </div>
+               <div style={{textAlign:'center', marginTop:'1rem', fontSize:'1.05rem', fontWeight:'400'}}> Feel free to reach-out if you like my designs. Hope to learn everyday!</div>
+            
+            </div>
         </div>
 
         

@@ -12,10 +12,10 @@ export default function Nav()
               <div className='vertical'>
 
                         
-                        <div className='home'> <FaHome size={28}/> Home</div>
-                        <div className='bio'> <FaCopy size={28}/>  Bio </div>
-                        <div className='project'> <FaProjectDiagram size={28}/>  Projects </div>
-                        <div className='contact'> <FaIdBadge size={28}/>  Contact </div>
+                        <div className='cutt'> <FaHome size={28}/> <a className='navbutton' href='#'>Home</a></div>
+                        <div className='cutt'> <FaCopy size={28}/>  <a className='navbutton' href='#bio'>Bio</a> </div>
+                        <div className='cutt'> <FaProjectDiagram size={28}/>  <a className='navbutton' href='#project'>Projects</a> </div>
+                        <div className='contact'> <FaIdBadge size={28}/>  <a className='navbutton' href='#contact'>Contact</a> </div>
                         
                         
                 

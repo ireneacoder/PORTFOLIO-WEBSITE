@@ -11,7 +11,7 @@
     background: linear-gradient(179.26deg, #8139BA -10.76%, #006AA6 109.37%);
 }
 
-.home{
+.cutt{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,26 +20,15 @@
     margin-top: 6rem;
     
 }
-
-.bio{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    margin-top: 6rem;
- 
+.navbutton{
+    color: #ffffff;
+    text-decoration: none;
+}
+.navbutton:hover{
+    color:#ffffff;
 }
 
-.project{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    margin-top: 6rem;
-   
-}
+
 
 .contact{
     display: flex;

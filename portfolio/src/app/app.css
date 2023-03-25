@@ -1,10 +1,12 @@
 .image{
     background-image: url('../../public/image.png');
     height: 100vh;
+    max-width: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    
     
 }
 .space{
@@ -33,6 +35,13 @@
     align-items: center;
     width: 15rem;
     
+}
+
+.download:hover{
+    
+    background: linear-gradient(92.98deg, #1B298E -1.6%, #08146E 93.68%);
+    filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 0.18));
+    transform: scale(1.05);
 }
 .dp{
 
@@ -107,5 +116,36 @@
     background: #FFFFFF;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.06);
     padding: 6rem;
+    
+}
+
+.outerdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18rem;
+    margin-right: 18rem;
+}
+
+.innerdiv{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    color: #bab9b9;
+}
+.icons{
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+
+}
+.icons:hover{
+    color: #4451B1 ;
+    /* background: linear-gradient(150.39deg, #4451B1 7.53%, #8139BA 79.12%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
     
 }

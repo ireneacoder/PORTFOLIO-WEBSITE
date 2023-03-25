@@ -1,0 +1,37 @@
+.button{
+    
+    /* position: absolute; */
+    margin-top: 1.8rem;
+    padding: 1.625rem;
+    height: 1.425rem;
+    border: none;
+    background-color: #4451B1;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+
+}
+.button:hover{
+    color: #ffffff;
+}
+
+.backdiv{
+
+    height: 1.425rem;
+    width: 6rem;
+    position: absolute;
+    background-color: #000000;
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+}
+.odiv{
+    
+    /* height: 1.5rem; */
+    width: 9rem;
+    background-color: aqua;
+
+}
